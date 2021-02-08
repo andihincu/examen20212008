@@ -264,7 +264,6 @@ background-color: var(--botoActiuFons);
 border: 3px solid var(--botoActiuVora);
 box-shadow: var(--botoActiuOmbra);
 cursor: pointer;
-margin-left: 70%;
 }
 
 button.actiu:hover {
@@ -284,6 +283,7 @@ button.inactiu:hover,button.inactiu:disabled {
 
 .botons {
   display: flex;
+justify-content: space-between;
 }
 
 
