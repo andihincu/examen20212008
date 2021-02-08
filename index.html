@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/estil.css">
-    <link rel="stylesheet" href="style/estil02HincuAndi.css">
+    <link rel="stylesheet" href="./style/estil.css">
+    <link rel="stylesheet" href="./style/estil02HincuAndi.css">
     <title>Examen</title>
   </head>
   <body>
@@ -13,16 +13,16 @@
     </header>
     <main>
 
-      <article class="elementVisible">
+      <article class="elementVisibleAH" id="pregunta1AH">
         <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitol vermell">8 de febrer de 2021</span>
         <div class="botons">
           <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu"   onclick="mostraAlerta();">Següent &gt;&gt;</button>
+          <button class="boto actiu"   onclick="passaSeguentAH(this);">Següent &gt;&gt;</button>
         </div>
       </article>
 
-      <article class="elementOcultAH" id="enunciat_1">
+      <article id="enunciat_1" class="elementOcultAH">
         <span class="subtitol negre">Exercici 1</span>
         <div>
           <div class="enunciat">
@@ -45,11 +45,11 @@
         </div>
         <div class="botons">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu"   onclick="passaSeguentAH(this);">Següent &gt;&gt;</button>
         </div>
       </article>
 
-      <article class="elementOcultAH" id="enunciat_2">
+      <article id="enunciat_2" class="elementOcultAH">
         <span class="subtitol negre">Exercici 2</span>
         <div>
           <div class="enunciat">
@@ -83,13 +83,14 @@
         </div>
         <div class="botons">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu"   onclick="passaSeguentAH(this);">Següent &gt;&gt;</button>
         </div>
       </article>
     </main>
       
-    <script src="js/examen.js"></script>
-    <script src="js/matrius.js"></script>
-    <script src="js/operacions.js"></script>
+    <script src="./js/examen.js"></script>
+    <script src="./js/matrius.js"></script>
+    <script src="./js/operacions.js"></script>
+    <script src="./js/seguentHincuAndi.js"></script>
   </body>
 </html>
