@@ -1,0 +1,7 @@
+.elementOcult {
+    display: none;
+  }
+  
+  .elementVisible {
+    display: flex;
+  }
