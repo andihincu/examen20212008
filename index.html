@@ -17,7 +17,7 @@
         <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitol vermell">8 de febrer de 2021</span>
         <div class="botons">
-          <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto inactiu" disabled onclick="passaAnteriorAH(this)">&lt;&lt;&nbsp;Anterior</button>
           <button class="boto actiu"   onclick="passaSeguentAH(this);">Següent &gt;&gt;</button>
         </div>
       </article>
@@ -44,8 +44,8 @@
 
         </div>
         <div class="botons">
-          <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu"   onclick="passaSeguentAH(this);">Següent &gt;&gt;</button>
+          <button class="boto actiu" onclick="passaAnteriorAH(this);">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu"   onclick="passaAnteriorAH(this);">Següent &gt;&gt;</button>
         </div>
       </article>
 
@@ -92,5 +92,7 @@
     <script src="./js/matrius.js"></script>
     <script src="./js/operacions.js"></script>
     <script src="./js/seguentHincuAndi.js"></script>
+    <script src="./js/anteriorHincuAndi.js"></script>
+    
   </body>
 </html>
