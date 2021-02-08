@@ -1,3 +1,4 @@
+
 function passaAnteriorAH(objRebut){
     let idObjPregAct = objRebut.parentElement.parentElement.id; 
     let colArticles = document.getElementsByTagName("article");
@@ -7,7 +8,10 @@ function passaAnteriorAH(objRebut){
         idObjPregAnt = colArticles[i-1].id;
         break;
       };
-    }
+    }   
+
+
+
 
     amagaElementAH(idObjPregAct);
     mostraElementAH(idObjPregAnt);
